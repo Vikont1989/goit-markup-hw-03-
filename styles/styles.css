@@ -91,21 +91,18 @@ img {
   margin-bottom: 0%;
   display: flex;
   margin-left: 93px;
-}
-
-.site-nav .list {
-  background-color: tomato;
-  margin-right: 50px;
-  margin-left: 0px;
-}
-
-.site-nav .list:last-child {
-  margin-right: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 50px;
+  
 }
 
 .list {
+  background-color: tomato;
+  gap: 50px;
   
 }
+
 
 .item {
   text-decoration: none;
@@ -127,8 +124,13 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
-  padding: 32px 0;
+padding: 32px 0;
 }
+
+.lis:first-child {
+  margin-left: 344px;
+}
+
 .contacts:hover {
   color: var(--accent-color);
 }
@@ -163,17 +165,23 @@ img {
 
 .nav-kontact {
   display: flex;
-  margin-right: 0px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+ gap: 50px;
 }
-
 .lis {
-   padding-top: 32px;
-   padding-bottom: 32px;
-   background-color: tomato;
+  display: flex;
+  
 }
 
-.lis:not(:last-child) {margin-right: 50px;}
 
+
+.header-kontact {
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
 
 
 
